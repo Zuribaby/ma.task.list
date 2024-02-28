@@ -48,7 +48,6 @@ function displayTasks() {
       });
   }
 }
-
 // Main function to interact with the user
 function main() {
   while (true) {
@@ -76,7 +75,7 @@ function main() {
               removeTaskFromPosition(position);
               break;
           case "5":
-              displayTasks();
+              displayTasks(); // Call displayTasks function here
               break;
           case "6":
               console.log("Goodbye!");
@@ -86,6 +85,7 @@ function main() {
       }
   }
 }
+
 
 // Call the main function to start the program
 main();
